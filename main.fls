@@ -139,6 +139,9 @@ INPUT harvardlogo.png
 INPUT ./harvardlogo.png
 INPUT ./harvardlogo.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT images/fig1.png
+INPUT ./images/fig1.png
+INPUT ./images/fig1.png
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT main.aux
