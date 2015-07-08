@@ -9,6 +9,21 @@
 \usepackage{dirtytalk}
 \usepackage[left=1.5cm,right=1.5cm,top=2cm,bottom=2cm]{geometry}
 
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{1pt}
+%\fancyhead[C]{\textbf{page \thepage}}
+\fancyhead[L]{\leftmark}
+%\fancyhead[R]{machin}
+
+\renewcommand{\footrulewidth}{1pt}
+\fancyfoot[C]{\textbf{page \thepage}}
+\fancyfoot[L]{\textsc{Thibaut VERCUEIL}}
+\fancyfoot[R]{Internshipt Report}
+
+
 \newcommand{\seas}{School of Engineering and Applied Sciences}
 \newcommand{\hseas}{Harvard School of Engineering and Applied Sciences}
 %\renewcommand{\rmdefault}{phv} % Arial
