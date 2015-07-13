@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  13 JUL 2015 12:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  13 JUL 2015 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -491,11 +491,14 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Try loading font information for U+msb on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 37.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 40.
  (./main.toc
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
@@ -505,71 +508,76 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 
  [2]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 48.
  <harvardlogo.png, id=12, 193.72375pt x 188.705pt>
 File: harvardlogo.png Graphic file (type png)
  <use harvardlogo.png>
-Package pdftex.def Info: harvardlogo.png used on input line 52.
+Package pdftex.def Info: harvardlogo.png used on input line 54.
 (pdftex.def)             Requested size: 76.8193pt x 74.82991pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 55.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 57.
  <images/fig1.png, id=14, 552.0625pt x 398.48875pt>
 File: images/fig1.png Graphic file (type png)
  <use images/fig1.png>
-Package pdftex.def Info: images/fig1.png used on input line 61.
+Package pdftex.def Info: images/fig1.png used on input line 63.
 (pdftex.def)             Requested size: 153.64644pt x 110.90724pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 65.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 67.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--83
+Underfull \hbox (badness 10000) in paragraph at lines 81--85
 
  []
 
 [3 <./harvardlogo.png> <./images/fig1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
+Underfull \hbox (badness 10000) in paragraph at lines 86--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-[4] <images/chart1.png, id=27, 361.35pt x 174.80307pt>
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+<images/chart1.png, id=27, 361.35pt x 174.80307pt>
 File: images/chart1.png Graphic file (type png)
  <use images/chart1.png>
-Package pdftex.def Info: images/chart1.png used on input line 110.
+Package pdftex.def Info: images/chart1.png used on input line 115.
 (pdftex.def)             Requested size: 512.14963pt x 247.77666pt.
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 110--111
-[][] 
- []
-
-[5 <./images/chart1.png>] (./main.aux) ) 
+ [5 <./images/chart1.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4475 strings out of 493304
- 63709 string characters out of 6139871
+ 4480 strings out of 493304
+ 63761 string characters out of 6139871
  132736 words of memory out of 5000000
- 7835 multiletter control sequences out of 15000+600000
- 27989 words of font info for 61 fonts, out of 8000000 for 9000
+ 7838 multiletter control sequences out of 15000+600000
+ 31382 words of font info for 65 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,10n,43p,442b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (5 pages, 426069 bytes).
+Output written on main.pdf (5 pages, 426913 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
