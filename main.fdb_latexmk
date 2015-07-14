@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1436811900 "main.tex" "main.pdf" "main" 1436811902
+["pdflatex"] 1436899999 "main.tex" "main.pdf" "main" 1436900002
   "/etc/texmf/web2c/texmf.cnf" 1412804916 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -91,12 +91,13 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1412805083 3822874 86e0686506d1bea7425753a678290091 ""
   "harvardlogo.png" 1433449643 46736 f8e42512d116c6e464562ddc8b4b0609 ""
   "images/chart1.png" 1436803247 385687 b1d6fd43e426e63147d0037e35bd5067 ""
+  "images/chart2.png" 1436897216 490284 78fcbb2a3e4fb0f51f46dab29c80b2bf ""
   "images/fig1.png" 1436397385 29654 b3993749d4c781942b24a8e3ee0bbd50 ""
-  "main.aux" 1436811901 684 7ab056cba8a56fd253f3f5e37961a9fd ""
-  "main.tex" 1436811896 7500 c553617f18db593c55d9e42c26d451ac ""
-  "main.toc" 1436811901 532 a1167ffb47ddc9e90e53a178a6b55174 ""
+  "main.aux" 1436900002 824 13beb0b644ec0fc60a133f80b945f713 ""
+  "main.tex" 1436899998 9474 72733be8b9004b0714677ca02d65f0b9 ""
+  "main.toc" 1436900002 653 205072e6fd4ac14d4d284304c5d1425e ""
   (generated)
-  "main.toc"
   "main.pdf"
   "main.aux"
   "main.log"
+  "main.toc"
