@@ -1,9 +1,17 @@
-\contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {part}{I\hspace {1em}Harvard University}{4}
-\contentsline {section}{\numberline {2}History}{4}
-\contentsline {subsection}{\numberline {2.1}Harvard University}{4}
-\contentsline {subsection}{\numberline {2.2}Harvard School of Engineering and Applied Sciences}{4}
-\contentsline {subsection}{\numberline {2.3}Mazur group}{5}
-\contentsline {section}{\numberline {3}Organization}{6}
-\contentsline {subsection}{\numberline {3.1}Main organization of the university}{6}
-\contentsline {subsection}{\numberline {3.2}Main organization of Harvard School of Engineering and Applied Sciences{}}{7}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {part}{I\hspace {1em}Harvard University}{4}{part.1}
+\contentsline {section}{\numberline {2}History}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Harvard University}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Harvard School of Engineering and Applied Sciences}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Mazur group}{5}{subsection.2.3}
+\contentsline {section}{\numberline {3}Organization}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Main organization of the university}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Main organization of Harvard School of Engineering and Applied Sciences{}}{7}{subsection.3.2}
+\contentsline {part}{II\hspace {1em}The internship}{8}{part.2}
+\contentsline {section}{\numberline {4}Mission and goals}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Specifications}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Difficulties encoutered}{8}{subsection.4.2}
+\contentsline {section}{\numberline {5}Work organization}{9}{section.5}
+\contentsline {subsection}{\numberline {5.1}Tools}{9}{subsection.5.1}
+\contentsline {section}{\numberline {6}Skills used}{9}{section.6}
+\contentsline {section}{\numberline {7}Results}{9}{section.7}

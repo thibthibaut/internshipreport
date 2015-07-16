@@ -7,13 +7,20 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{dirtytalk}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{courier}
+
 \usepackage[left=1.5cm,right=1.5cm,top=2cm,bottom=2cm]{geometry}
 
-
+\usepackage{hyperref}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
+\lstset{basicstyle=\footnotesize\ttfamily,breaklines=true}
+\lstset{framextopmargin=50pt,frame=bottomline}
 
+\newcommand{\shellcmd}[1]{\\\indent\indent\texttt{\footnotesize \# #1}\\}
 \renewcommand{\headrulewidth}{1pt}
 %\fancyhead[C]{\textbf{page \thepage}}
 %\fancyhead[L]{\leftmark}
@@ -23,11 +30,11 @@
 \fancyfoot[L]{\textsc{Thibaut VERCUEIL}}
 \fancyfoot[R]{Internship Report}
 
-
+\newcommand{\website}[1]{\textcolor{blue}{\underline{#1}}}
 \newcommand{\seas}{School of Engineering and Applied Sciences}
 \newcommand{\hseas}{Harvard School of Engineering and Applied Sciences}
-\renewcommand{\rmdefault}{phv} % Arial
-\renewcommand{\sfdefault}{phv} % Arial
+%\renewcommand{\rmdefault}{phv} % Arial
+%\renewcommand{\sfdefault}{phv} % Arial
 
 \title{{\Huge Internship ING4}\\ Report\\ \vspace{1cm} Harvard University}
 \author{Thibaut Vercueil}
@@ -36,9 +43,7 @@
 
 \begin{document}
 \maketitle
-\centering{
-\includegraphics[width=0.5\textwidth]{images/seaslogo.png}
-}
+
 \begin{abstract}
 This is the abstract\end{abstract}
 \newpage
@@ -139,7 +144,82 @@ The chart bellow represent the organization of the Harvard's central administrat
 %TODO: COMMENT THIS CHART !
 
 \subsection{Main organization of \hseas{}}
-As I said earlier, each faculty composing Harvard university is very independant. As a consequence, \seas{} has it's own intern administration and financial management.
+As I said earlier, each faculty composing Harvard university is very independent. As a consequence, \seas{} has it's own intern administration and financial management.\\
+At the head of SEAS, we have the Dean, Francis J. Doyle III\@ His role is to manage new faculty recruitment and faculty relations, for example authorizing faculty searches, approving promotion reviews ans special appointments. Furthermore, he leads strategic planning for SEAS (mostly the financial needs) and he coordinates fundraising. He organizes the alumni relations, which are very important in a university such as Harvard.\\
+
+The facutly is diveded into 8 ``areas'', at the head of which are the \textbf{area deans}.\\
+Each area dean is helped in his work by the \textbf{area director}
+
+
+%---------------------------------------
+% PART II
+%---------------------------------------
+\newpage
+\part{The internship}
+
+\section{Mission and goals}
+In the internship offer, my mission was described as following:\\
+
+%------- QUOTE -----
+\textit{We will update the Mazur group website. We need a student to port the php/mysql based Mazur group website to a new content management system and update photos and content.
+Skills needed:
+php/mysql experience required
+experience with some content management platform (WordPress, drupal, etc.) preferred. Bonus points for Adobe suite or CSS template coding.}\\
+%------- END QUOTE ---
+
+I went on \textcolor{blue}{\underline{mazur.harvard.edu}} to see the website and I saw that it needed a wind of change. The design looks old and it doesn't fit to the screen, and the websites contains some dead links and not working search bars.\\
+I was not sure yet about How will I work and I waited to see my mentor Daryl to have more infomation about the mission.\\
+
+So, in my first day of internship, I met Daryl, a post-graduate student who work with the Mazur group, and she told me that a designer will take care of the \textbf{front-end } part. I was pretty happy with this news, since I don't master web design and it's not the part of web developpement I'm intersted in. Consequently, my job was to develop the \textbf{back-end} part of the website, i.e the PHP/SQL code which drives the core of the content management website. \\
+Later, about a week after I started my internship, I met Eric Mazur, principal investigator of the group, he gave me his specifications.
+
+\subsection{Specifications}
+Basically the goal of my mission was to create a new website for the Mazur group, whith pretty much the same features as the old one which are in a nutshell:
+\begin{itemize}
+\item For the visitor: Navigate through the contents (Publications, Talks, People, News about the group)
+\item Be able to search overall the website
+\item For the members of the group: Add, update and delete content.
+\end{itemize}
+
+\subsection{Difficulties encoutered}
+\subsubsection*{Languages and technologies}
+When I started to work on the website, my first task was to download the old website and database on my computer so I could work locally without ``damaging'' the current website.\\
+
+I discovered that the database management system was \textbf{PostgreSQL}. I have always worked with \textbf{MySQL} as a management system and so I wasn't familliar at all with Postgre.\\
+So, one of my first task during this internship was to install a PotgreSQL server on my computer which runs on ubuntu, simply by executing \shellcmd{sudo apt-get install postgresql} in the terminal.\\
+Then, once I had installed the server locally, I nedded to import the current database and learn how to use Posgresql. I used a lot the documentation on PostgreSQL offical website\footnote{www.postgresql.org} which is really complete.\\
+
+For a little while, I navigated through the database using command line, but it wasn't practical at all. Thus, I looked for a graphical user interface administration tool for managing the database, an equivalent of phpMyAdmin but for PostgreSQL, which would help me to manage the database.\\
+I chose to install \textit{PgAdminIII}, a powerful tool that allows me to manage the database, see the tables, execute queries\ldots
+%A VOIR: METRE UN SCREENSHOT DU SOFT ??
+
+In conclusion, learning how to use PostgreSQL wasn't so hard but it took me about a whole week to be really used to it. The query syntax is SQL so it wasn't different from I learnt at school.
+
+\subsubsection*{Database}
+Once I mastered PostgreSQL and database management, I started to look at the current database organization of the website. The fist thing I noticed was that it was very disordered. The database contained 196 tables where about a hundred was empty. Moreover, the encoding of the data was ASCII, a very old encoding format which can represent only 128 characters.\\
+Thus, the first thing I did with the database was to convert it into UTF-8 encoding, a modern character encoding system, compatible with ASCII and way more complete.\\ Thanks to that, special characters such as ``é'' or ``ï'' can now be used in the database.\\
+
+After looking at all the tables in the database, I decided to create a new one, and import tables that I wanted in it, so that this database would be ``cleaner''. In order to easily transfer tables from a database to the other, I wrote a shell script which automatize the process:\\
+
+\begin{lstlisting}[language=bash]
+#!/bin/bash
+#Transfers tables from old database to new one
+pg_dump -h localhost -U mazur_www mazur_www_utf8 --table $1 > /tmp/$1.pgsql #Exporting
+psql -h localhost -U mazur_www mazur_db < /tmp/$1.pgsql #Importing
+rm /tmp/$1.pgsql #Cleaning
+\end{lstlisting}
+
+\subsubsection*{Independance}
+
+\section{Work organization}
+\subsection{Tools}
+
+
+\section{Skills used}
+
+\section{Results}
+
+
 
 
 
