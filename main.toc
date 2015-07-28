@@ -13,5 +13,5 @@
 \contentsline {subsection}{\numberline {4.2}Difficulties encoutered}{8}{subsection.4.2}
 \contentsline {section}{\numberline {5}Work organization}{9}{section.5}
 \contentsline {subsection}{\numberline {5.1}Tools}{9}{subsection.5.1}
-\contentsline {section}{\numberline {6}Skills used}{9}{section.6}
+\contentsline {section}{\numberline {6}Skills used}{10}{section.6}
 \contentsline {section}{\numberline {7}Results}{10}{section.7}
