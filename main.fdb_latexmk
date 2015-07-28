@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1438107241 "main.tex" "main.pdf" "main" 1438107245
+["pdflatex"] 1438112614 "main.tex" "main.pdf" "main" 1438112617
   "/etc/texmf/web2c/texmf.cnf" 1412804916 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -122,13 +122,13 @@
   "images/chart1.png" 1436803247 385687 b1d6fd43e426e63147d0037e35bd5067 ""
   "images/chart2.png" 1436897216 490284 78fcbb2a3e4fb0f51f46dab29c80b2bf ""
   "images/fig1.png" 1436397385 29654 b3993749d4c781942b24a8e3ee0bbd50 ""
-  "main.aux" 1438107245 2318 e59e9d0d36750194c765ab46924e6ba8 ""
-  "main.out" 1438107245 1092 60b7abf077e64739a6c35483360991e3 ""
-  "main.tex" 1438107241 19071 c9c815a39f990fc7c692afc35138f260 ""
-  "main.toc" 1438107245 1348 82cd47342b043575d4af808dd396fd49 ""
+  "main.aux" 1438112617 2318 e59e9d0d36750194c765ab46924e6ba8 ""
+  "main.out" 1438112617 1092 60b7abf077e64739a6c35483360991e3 ""
+  "main.tex" 1438112610 20538 37f910abdf3b73bcbb79ce909eb70f19 ""
+  "main.toc" 1438112617 1348 82cd47342b043575d4af808dd396fd49 ""
   (generated)
+  "main.toc"
   "main.out"
   "main.aux"
   "main.pdf"
   "main.log"
-  "main.toc"

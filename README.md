@@ -304,21 +304,112 @@ psql -h localhost -U mazur_www mazur_db < /tmp/$1.pgsql #Importing
 rm /tmp/$1.pgsql #Cleaning
 ~~~~
 
+In order to understand the database main organization, I tried to build
+a little UML diagram, which I expanded throughout the internship. I used
+the website yuml.comto
+
 ### Independance {#independance .unnumbered}
 
 During this internship, I had a really great independance. I worked
 mostly with the IT-Team of Harvard School of Engineering and Applied
 Sciences so I could ask them if had questions, but my internship master
-wasn’t there most of the time.
+wasn’t there most of the time. It was
 
 Work organization
 =================
 
+As I said earlier, I was very indepandant during this internship, I had
+to manage myself. My mission was to create a website but it was up to me
+to organise my schedule and my short terms objectives.\
+In order to keep organised, I always had a little notebook next to my
+laptop when I worked, on which I wrote my short terms objectives. It was
+mostly organized as TODO lists, comporting a few tasks that I tried to
+do as soon as I could.\
+I also used this notebook as a rough book to draw UML diagram, graphic
+SQL queries or pseudo-code for algorithms.\
+
+It was really hard to manage the work by myself and it took me a while
+to be really organized. At the begining,
+
 Tools
 -----
 
+During the whole internship, the only hardware that I used was my own
+computer. I prefered work on this one instead of a Harvard’s one because
+I’m used to it and there is an AZERTY keyboard and that makes a big
+difference.\
+My computer is a *HP Pavillon 15n* running on Ubuntu Linux 14.04. It has
+an Intel Core i5 CPU and 8 Go of RAM. this configuration is quite
+sufficient to do web development.\
+
+No complicated or expensive softwares are needed to develop a website.
+The main languages I used were PHP, mySQL and Javascript. These
+languages don’t need any compilation and a simple notepad application
+could suit for web developement. Nontheless, I started my internshipt
+using Sublime Text to code, this software is an “improved” nodepad, with
+some features such as autocompletion, autoindent, bracket-matching …\
+About a month after I stared my internship, I asked my coworkers from
+the IT-team which software they used for web developpement and which one
+they would recomand. A coworker told me that he developed on a paid (and
+expensive) software, but he recomanded me *Atom*, an open source free
+software pretty close to Sublime Text. I tried this software and I
+immediatly adopted it.\
+The functionment of Atom is simple, it’s a the beginning a simple
+notepad application but you can add packages for autocompletion,
+spell-checking, linting…\
+So I developped the entire website using Sublime Text, then Atom.
+
+Of course I needed a web browser to visualise and test the website. I
+chose Mozilla Firefox, my usual web browser, it’s open source and it
+come with a lot of usefull “developper tools” really usefull when you
+want to test a website. For example:
+
+-   I could edit CSS code directly while navigating on the webpage.
+
+-   I used the javascript console to see errors and to inject code into
+    the webpage in order to test my code.
+
+-   Theses tools allowed me to inspect the network, so I could see the
+    HTTP requests done by the website.
+
+-   I could also monitor the loading time of a webpage, and optimize it
+    by improving and compressing my javascript code for example.
+
+-   The website needs to be adapted for a smatphone browsing, Firefox
+    offers the possibility to simulate the behaviour of a smartphone
+    with the “adaptive view”.
+
+Nevertheless, I also needed to test my website on other web browser, in
+order to be sure that everything is working. So thanks to VMWare player
+I could launch a windows 7 and a MacOS X Yosemete to see the behaviour
+of the website on Internet Explorer and Safari.
+
 Skills used
 ===========
+
+I started to interest myself in website creation when I was in high
+school. I was very curious about how a website is made, how is it
+hosted…So, I learned the basics of website creation when I was 17, using
+the famous MOOC[^3] *Le site du zéro*, now called *Openclassrom*.\
+I learned HTML/CSS and php and I had a some knowledge in SQL. I didn’t
+know anything about javascript. Then, when I came to ECE Paris
+Engineering School, I learnt the theory behind SQL and database
+management. These courses and the JAVA project *Gestion d’un centre
+hospitalier* has been very usefull for me during this internship which
+involved a lot of databasing.\
+Morever, this year I worked on a **Projet pluridiciplinaire en équipe**
+whithin the ECE and I had to developp a web interface using javascript
+and a Node.js server, also using javascript. All my javascript/jQuery
+knowledge come from this project, and it has been a tremendous help
+during this summer.\
+
+The other kind of skills that I used a lot is Linux management and shell
+script.\
+The communication beetween my computer and Havard server was via
+**ssh**. As Linux has a native ssh client included it was pretty easy.\
+Then, as you saw earlier, I wrote some **shell scripts** to avoid typing
+the same commands again and again. The courses of Laurent Ferrier about
+Linux taught me how to write shell script.
 
 Results
 =======
@@ -326,3 +417,6 @@ Results
 [^1]: provost.harvard.edu
 
 [^2]: www.postgresql.org
+
+[^3]: Massive Open Online Course, a website which aims to provide open
+    courses online
