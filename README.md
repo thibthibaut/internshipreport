@@ -1,13 +1,33 @@
 ---
 authors:
 - Thibaut Vercueil
-date: summer 2015
+date: 'Mai – August, 2015'
 ...
 
-This is the abstract
+This is the abstract\
 
 Acknowledgement {#acknowledgement .unnumbered}
 ===============
+
+First of all, I would like to thank Valeria Nuzzo, Director of Research
+at ECE PARIS Engineering School, whithout whom I would never had that
+oppurtiny to do this internship and live this amazing experience.\
+
+Then, I would like to thank Eric Mazur, who accepted me whithin his
+research group and who gave me time when I needed it.\
+
+Moreover, I thank all the members of the Mazur group, who welcomed me
+and integreted me within their team.\
+
+I also want to thank Nathan Jorde and all the IT Team for having me in
+their office and brought me help when I needed, this intership would
+have be a lot harder without them.\
+
+Furthermore, I thank all my teachers in ECE Paris, who brought me the
+knowledge and the skills required to do this internship.\
+
+Finally, I thank my parents and parents-in-law who supported me, and
+whithout whom this experience whouldn’t have been realized.
 
 Introduction
 ============
