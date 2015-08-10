@@ -1,7 +1,7 @@
 ---
 author:
 - Thibaut Vercueil
-date: 'Mai – August, 2015'
+date: 'summer 2015'
 ...
 
 This is the abstract\
