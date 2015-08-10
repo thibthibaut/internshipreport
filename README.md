@@ -1,5 +1,5 @@
 ---
-authors:
+author:
 - Thibaut Vercueil
 date: 'Mai – August, 2015'
 ...
